@@ -138,7 +138,7 @@ opacity: 1; /*结尾状态 透明度为1*/
     padding: 0 16px;
     line-height: 30px;
     border-radius: 30px;
-    border: 1px solid #eee;
+    border: 1px solid #771c1c;
 }
 
 @media screen and (max-width: 980px) {
@@ -163,7 +163,7 @@ opacity: 1; /*结尾状态 透明度为1*/
 }
 
 .mdui-select {
-    padding-right: 50px;
+    padding-right: 30px;
     margin-right: 20px !important;
 }
 
