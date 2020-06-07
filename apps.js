@@ -6,9 +6,9 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/css/mdui.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@hole/css/mdui.css">');
 document.write('<link rel="icon" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/imgs/favicon.ico">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/css/nexmoe.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@hole/css/nexmoe.css">');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/mdui.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/flv.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/DPlayer.min.js"></script>');
