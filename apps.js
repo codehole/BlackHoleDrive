@@ -6,9 +6,9 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@hole/css/mdui.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@code/css/mdui.css">');
 document.write('<link rel="icon" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/imgs/favicon.ico">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@hole/css/nexmoe.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive@code/css/nexmoe.css">');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/mdui.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/flv.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/codehole/BlackHoleDrive/js/DPlayer.min.js"></script>');
@@ -159,12 +159,12 @@ function nav(path) {
   var search_text = model.is_search_page ? (model.q || '') : '';
   const isMobile = Os.isMobile;
   var search_bar = `<div class="mdui-toolbar-spacer"></div>
-        <div id="search_bar" class="mdui-textfield mdui-textfield-expandable mdui-float-right ${model.is_search_page ? 'mdui-textfield-expanded' : ''}" style="max-width:${isMobile ? 280 : 360}px">
+        <div id="search_bar" class="mdui-textfield mdui-textfield-expandable mdui-float-right ${model.is_search_page ? 'mdui-textfield-expanded' : ''}" style="max-width:${isMobile ? 180 : 350}px">
             <button class="mdui-textfield-icon mdui-btn mdui-btn-icon" onclick="if($('#search_bar').hasClass('mdui-textfield-expanded') && $('#search_bar_form>input').val()) $('#search_bar_form').submit();">
                 <i class="mdui-icon material-icons">search</i>
             </button>
             <form id="search_bar_form" method="get" action="/${cur}:search">
-            <input class="mdui-textfield-input" type="text" name="q" placeholder="Search In Current Drive" value="${search_text}"/>
+            <input class="mdui-textfield-input" type="text" name="q" placeholder="Please Search In Current Drive" value="${search_text}"/>
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
         </div>`;
