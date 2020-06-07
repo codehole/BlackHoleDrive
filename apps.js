@@ -164,7 +164,7 @@ function nav(path) {
                 <i class="mdui-icon material-icons">search</i>
             </button>
             <form id="search_bar_form" method="get" action="/${cur}:search">
-            <input class="mdui-textfield-input" type="text" name="q" placeholder="Please Search In Current Drive  What You Want" value="${search_text}"/>
+            <input class="mdui-textfield-input" type="text" name="q" placeholder="Search In Current Drive What You Want" value="${search_text}"/>
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
         </div>`;
